@@ -9,8 +9,8 @@ public class Quizs {
 	 String[] quizs = quiz.split("!");
 	String[] answers = answer.split("!");
 
+	
 	// ¸Þ¼Òµå
-
 	public boolean checkResult(String a, String userAnswer) {
 		if(a.equals(userAnswer)) {
 			return true;
